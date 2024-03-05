@@ -57,7 +57,7 @@
                         <a class="nav-link" href="#">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="#">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -91,7 +91,7 @@
     <!-- main  -->
     <main class="container">
         <section id="quienes-somos" class="d-none d-lg-block container-fluid text-center">
-            <h3 class="my-4">Quienes Somos</h3>
+            <h3 class="my-4 pt-5 pb-5">QUIENES SOMOS</h3>
             <div class="row">
 
                 <div class="row col-4">
@@ -164,13 +164,13 @@
         </section>
         <section id="destacados" class="my-4">
             <section id="destacados" class="d-none d-lg-block container-fluid text-center">
-                <h3 class="my-4">Destacados</h3>
+                <h3 class="my-4">DESTACADOS</h3>
                 <div class="row">
 
 
                     <div class="row row-cols-1 row-cols-md-4 g-4">
                         <div class="col">
-                            <div class="card">
+                            <div class="card h-100 bg-info text-white">
                                 <img src="./assets/img/card1.jpg" class="card-img-top" alt="torres del paine">
                                 <div class="card-body">
                                     <h5 class="card-title">Torres del Paine</h5>
@@ -184,7 +184,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card">
+                            <div class="card h-100 bg-info text-white">
                                 <img src="./assets/img/card2.jpg" class="card-img-top" alt="salar">
                                 <div class="card-body">
                                     <h5 class="card-title">Desierto de Atacama</h5>
@@ -198,7 +198,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card">
+                            <div class="card h-100 bg-info text-white">
                                 <img src="./assets/img/card3.jpg" class="card-img-top" alt="desierto atacama">
                                 <div class="card-body">
                                     <h5 class="card-title">Salar de Atacama</h5>
@@ -210,7 +210,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card">
+                            <div class="card h-100 bg-info text-white">
                                 <img src="./assets/img/card4.jpg" class="card-img-top" alt="selva">
                                 <div class="card-body">
                                     <h5 class="card-title">Bosque Valdiviano</h5>
@@ -225,23 +225,22 @@
                     </div>
 
                     <!-- contacto  -->
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Mensaje</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+                    <h4 class="pt-5 pb-5">CONTACTO</h4>
+                    
+                    <div class="mb-3 text-start">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu nombre">
+                      </div>
+                      <div class="mb-3 text-start">
+                        <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escribe asunto">
+                      </div>
+                      <div class="mb-3 text-start">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe tu texto en detalle" rows="3"></textarea>
+                      </div>
+                      <div class=" d-grid gap-2 d-md-flex justify-content-md-start pb-5"><button type="button" class="btn btn-info text-start text-white">Enviar</button></div>
+                      
 
     </main>
     <!-- footer  -->
